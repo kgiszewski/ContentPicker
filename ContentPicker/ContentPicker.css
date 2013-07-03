@@ -1,0 +1,46 @@
+.contentPickerSaveBox{
+  display: none;
+  width: 100%;
+}
+
+.contentPickerDiv{
+  /* border: 1px solid #ccc; */
+  overflow: hidden;
+  width: 600px;
+}
+
+.contentPickerTableWrapper{
+  border: 1px solid #ccc;
+  overflow: hidden;
+  display: none;
+}
+
+.contentPickerSortTable{
+  width: 100%;
+}
+
+.contentPickerSortTable tr{
+  background-color: #fff;
+  border: 1px dashed #ccc;
+}
+
+.contentPickerButtons{
+  text-align: right;
+}
+
+.contentPickerSortTable .thumbnail{
+  width: 30px;
+  float: left;
+  margin-right: 2px;
+}
+
+.contentPickerButtonWrapper{
+  overflow: hidden;
+  padding-bottom: 5px; 
+}
+
+.contentPickerPlaceholder td{
+  background-color: #FFFACD;
+  border: 1px dashed #ccc;
+  padding: 2px;
+}

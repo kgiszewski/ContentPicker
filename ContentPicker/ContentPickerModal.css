@@ -1,0 +1,207 @@
+html, body{
+  height: 100%;
+  overflow: hidden;
+  font-family: Arial, 'Lucida Grande';
+}
+#treePickerDiv{
+  height: 655px;
+  width: 990px;
+  overflow: hidden;
+}
+
+#treePickerDiv{
+  overflow: hidden;
+}
+
+/*
+#TreePicker_TreeContainer{
+  width: 39%;
+  height:  96% !important;
+  padding: 5px;
+  overflow: auto;
+  float: left;
+  margin-right: 1%;
+}
+*/
+
+#filterDiv{
+  border: 1px solid #ccc;
+  overflow: hidden;
+  width: 685px;
+  float: right;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-bottom: 1%;
+  height: 30px;
+}
+
+#filterDiv input{
+  border: 1px solid #ccc;
+  padding: 4px;
+  background-color: #FFFACD;
+}
+
+#filterDiv .searchBoxDiv{
+  overflow: hidden;
+  float: left;
+  width: 20%;
+}
+
+#filterDiv .searchBoxDiv label{
+  font-size: 14px;
+}
+
+#filterDiv .searchBoxDiv input{
+  width: 50%;
+}
+
+.sortDiv{
+  width: 40%;
+  float: left;
+}
+
+.countDiv{
+  text-align: right;
+  padding-right: 10px;
+}
+
+#previewDiv{
+  border: 1px solid #ccc;
+  overflow: auto;
+  width: 685px;
+  height: 50%;
+  margin-bottom: 1%;
+  float: right;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+#selectedDiv{
+  border: 1px solid #ccc;
+  overflow: auto;
+  overflow: hidden;
+  width: 685px;
+  height: 33%;
+  float: right;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+#adminDiv{
+  clear: both;
+  text-align: right;
+}
+
+#loaderDiv{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-image: url(/umbraco/plugins/ContentPicker/images/10black.png);
+}
+
+#loaderDiv span{
+  display: inline-block;
+  vertical-align: middle;
+  height: 95%;
+}
+
+.previewItem{
+  overflow: auto;
+  border: 1px solid #ddd;
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.previewItem img.thumbnail{
+  float: left;
+  margin-right: 2px;
+  width: 50px;
+}
+
+.previewItem img.icon{
+  float: left;
+  margin-right: 2px;
+}
+
+.previewItem h1{
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0;
+  margin:0;
+  clear: both;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+.previewItem h2{
+  font-size: 12px;
+  font-weight: normal;
+  padding: 0;
+  margin:0;
+  clear: both;
+  overflow: hidden;
+}
+
+.previewItem h3{
+  font-size: 10px;
+  font-weight: normal;
+  padding: 0;
+  margin:0;
+  clear: both;
+  overflow: hidden;
+}
+
+.previewSelected{
+  background-color: #7FFF00;
+}
+
+.selectedItem{
+  overflow: hidden;
+  border: 1px solid #ddd;
+  float: left;
+  width: 100px;
+  height: 50px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.selectedItem img.thumbnail{
+  float: left;
+  margin-right: 2px;
+  width: 20px;
+}
+
+.selectedItem h1{
+  font-size: 10px;
+  font-weight: normal;
+  padding: 0;
+  margin:0;
+  clear: both;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+.removeItem{
+  float: right;
+}
+
+.disabled{
+
+}
+
+.treeContainer{
+    border: 1px solid #ccc;
+    padding: 2px;
+    overflow: auto;
+    width: 275px;
+    float: left;
+    height: 625px;
+}
